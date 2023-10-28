@@ -1,0 +1,47 @@
+@import "reset";
+@import "common";
+@import "vars";
+@import "medias";
+
+/* =============Header=================== */
+header {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: white;
+}
+
+.nav_container {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: none;
+}
+.nav {
+  position: relative;
+  & > .fa {
+    font-size: 24px;
+    width: 22px;
+    color: $Dark4;
+  }
+}
+
+.menu {
+  position: absolute;
+  right: 1px;
+  top: calc(100% + 10px);
+  & li {
+    color: $Dark2;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 3px 0;
+  }
+}
+.has-children:hover ~ .menu {
+  display: block;
+  background-color: white;
+  padding: 10px;
+  width: 120px;
+}

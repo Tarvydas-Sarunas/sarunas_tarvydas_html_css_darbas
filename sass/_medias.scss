@@ -1,0 +1,11 @@
+@media screen and (min-width: 700px) {
+  .menu {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    position: relative;
+  }
+  .has-children {
+    display: none;
+  }
+}
