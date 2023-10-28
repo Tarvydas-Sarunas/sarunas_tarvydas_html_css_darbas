@@ -78,7 +78,7 @@ header {
 }
 
 .nav_container {
-  padding: 32px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -114,4 +114,15 @@ header {
   background-color: white;
   padding: 10px;
   width: 120px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
+
+/*  rasau koda tiesiai i cia nes nuo postinimo i github nebekompilioja */
+/* nzn kas nutiko */
+.container {
+  min-width: 428px;
+  padding: 32px;
+}
+
+.hero {
+  display: flex;
+}

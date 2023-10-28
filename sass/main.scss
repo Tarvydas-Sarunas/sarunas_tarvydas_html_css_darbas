@@ -3,7 +3,8 @@
 @import "vars";
 @import "medias";
 
-/* =============Header=================== */
+// =============Header===================
+
 header {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -11,7 +12,8 @@ header {
 }
 
 .nav_container {
-  padding: 32px;
+  padding: 32px 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,4 +46,10 @@ header {
   background-color: white;
   padding: 10px;
   width: 120px;
+}
+
+// ==========HERO=============
+
+.hero {
+  display: flex;
 }
